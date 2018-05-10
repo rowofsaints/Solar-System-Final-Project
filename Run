@@ -1,0 +1,5 @@
+all:
+	
+	g++ -c lib.h lib.cc main.cc
+	g++ -o Simulation lib.o main.o
+	./Simulation
